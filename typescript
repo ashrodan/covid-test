@@ -1,0 +1,22 @@
+Script started on 2020-04-04 05:49:00+0000
+]0;jovyan@716a9f18f1c7: ~/notebooks[01;32mjovyan@716a9f18f1c7[00m:[01;34m~/notebooks[00m$ scripts
+bash: scripts: command not found
+]0;jovyan@716a9f18f1c7: ~/notebooks[01;32mjovyan@716a9f18f1c7[00m:[01;34m~/notebooks[00m$ scriptscscriptsdscripts scripts
+]0;jovyan@716a9f18f1c7: ~/notebooks/scripts[01;32mjovyan@716a9f18f1c7[00m:[01;34m~/notebooks/scripts[00m$ ls
+[0m[01;32mdownload_data.sh[0m
+]0;jovyan@716a9f18f1c7: ~/notebooks/scripts[01;32mjovyan@716a9f18f1c7[00m:[01;34m~/notebooks/scripts[00m$ cd..
+bash: cd..: command not found
+]0;jovyan@716a9f18f1c7: ~/notebooks/scripts[01;32mjovyan@716a9f18f1c7[00m:[01;34m~/notebooks/scripts[00m$ cd.[K ..
+]0;jovyan@716a9f18f1c7: ~/notebooks[01;32mjovyan@716a9f18f1c7[00m:[01;34m~/notebooks[00m$ cd ..
+]0;jovyan@716a9f18f1c7: ~[01;32mjovyan@716a9f18f1c7[00m:[01;34m~[00m$ ./s[Knotebooks/sce[Kripts/download_data.sh 
+./notebooks/scripts/download_data.sh: line 1: data/deaths_raw.csv: No such file or directory
+]0;jovyan@716a9f18f1c7: ~[01;32mjovyan@716a9f18f1c7[00m:[01;34m~[00m$ ./notebooks/scripts/download_data.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@c[1@a[1@t[1@ 
+curl 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv' >> 'notebooks/data/deaths_raw.csv']0;jovyan@716a9f18f1c7: ~[01;32mjovyan@716a9f18f1c7[00m:[01;34m~[00m$ cat ./notebooks/scripts/download_data.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@cat [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K^C
+]0;jovyan@716a9f18f1c7: ~[01;32mjovyan@716a9f18f1c7[00m:[01;34m~[00m$ cat ./notebooks/scripts/download_data.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0100 47329  100 47329    0     0   9231      0  0:00:05  0:00:05 --:--:-- 11773
+]0;jovyan@716a9f18f1c7: ~[01;32mjovyan@716a9f18f1c7[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-04-04 05:50:11+0000
